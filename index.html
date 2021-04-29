@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Access Level Home Exercise</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__heading">Access Level Home Exercise</h2>
+        <p class="header__subHeading">Login Form</p>
+    </header>
+    <section class="section__loginForm">
+        <div class="section__loginFormWrapper">
+            <form class="loginForm">
+                <div class="loginForm__userName">
+                    <label class="loginForm__label" for="userName" id="userLabel">Username</label>
+                    <input class="loginForm__input" type="text" name="userName" id="userName" aria-required="true" aria-invalid="false" aria-describedby="userNameAler">
+                    <div role="alert" aria-atomic="true" id="usernameAlert" class="loginForm__alert"></div>
+                </div>
+                <div class="loginForm_password">
+                    <label class="loginForm__label" for="password" id="passwordLabel">Password</label>
+                    <input class="loginForm__input" type="password" name="password" id="password" aria-required="true" aria-invalid="false" aria-describedby="passwordAlert">
+                    <div aria-live="polite" role="alert" aria-atomic="true" id="passwordAlert" class="loginForm__alert"></div>
+                </div>
+                <button type="button" class="loginForm__button" id="loginButton">Login</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
