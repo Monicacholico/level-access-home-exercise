@@ -1,4 +1,3 @@
-
 const loginBtn = document.getElementById('loginButton');
 const userAlert = document.getElementById('usernameAlert');
 const passwordAlert = document.getElementById('passwordAlert');
